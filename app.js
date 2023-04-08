@@ -3,6 +3,7 @@ $(function () {
         url: "https://api.example.com/reservations",
         type: "GET",
         dataType: "json",
+        
         beforeSend: function () {
             // show a loader while waiting for API response
             $("#loader").show();
